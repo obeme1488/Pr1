@@ -7,7 +7,7 @@ def calculator():
     history = []
 
     while True:
-        # TODO: Зчитати введення від користувача
+        #TODO: Зчитати введення від користувача
         user_input = input("\n> ").strip()
 
         # TODO: Перевірити команди виходу ('quit') та історії ('history')

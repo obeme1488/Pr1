@@ -16,7 +16,7 @@ def harmonic_sum(n: int) -> float:
 
 def multiplication_table(n: int) -> None:
     """Виводить таблицю множення n × n."""
-    # TODO: Використати вкладені цикли for та форматований вивід
+    #TODO: Використати вкладені цикли for та форматований вивід
     for i in range(1, n + 1):
         for j in range(1, n + 1):
             # :>4 вирівнювання по правому краю

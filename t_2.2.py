@@ -28,7 +28,7 @@ def triangle_type(a: float, b: float, c: float) -> str:
 
 def triangle_area(a: float, b: float, c: float) -> float:
     """Обчислює площу трикутника за формулою Герона."""
-    # TODO: Реалізувати формулу Герона
+    #TODO: Реалізувати формулу Герона
     p = (a + b + c) / 2
     area = math.sqrt(p * (p - a) * (p - b) * (p - c))
     return area
